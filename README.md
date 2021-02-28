@@ -8,21 +8,6 @@ This is the backend part of the project: A REST API written in Spring Boot (Java
 The [Frontend Part](https://github.com/truj/aspe-ng) is written in Angular 11.
 
 
-<style>
-	mdb-badge {
-		color: white;
-	}
-	mdb-badge[color=green] {
-		background-color: #4caf50;
-	}
-	mdb-badge[color=red] {
-		background-color: #f44336;
-	}
-	mdb-badge[color=orange] {
-		background-color: #ff9800;
-	}
-</style>
-
 ## Techniques
 
 <ul>
@@ -49,44 +34,44 @@ The [Frontend Part](https://github.com/truj/aspe-ng) is written in Angular 11.
 	<ul>
 		<li>Checking Server States</li>
 		<ul>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Backend API (REST)</li>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Elasticsearch (REST API)</li>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Elasticsearch Head Plugin</li>
+			<li>🟩Implemented🟩 Backend API (REST)</li>
+			<li>🟩Implemented🟩 Elasticsearch (REST API)</li>
+			<li>🟩Implemented🟩 Elasticsearch Head Plugin</li>
 		</ul>
 		<li>Database Tables</li>
 		<ul>
 			<li>Customers</li>
 			<ul>
-				<li><mdb-badge color="green">Implemented</mdb-badge> Show the number of customers</li>
-				<li><mdb-badge color="green">Implemented</mdb-badge> Initialize records: Adds 10 fake customers at a time.</li>
+				<li>🟩Implemented🟩 Show the number of customers</li>
+				<li>🟩Implemented🟩 Initialize records: Adds 10 fake customers at a time.</li>
 			</ul>
 			<li>Users</li>
 			<ul>
-				<li><mdb-badge color="green">Implemented</mdb-badge> Show the number of users</li>
-				<li><mdb-badge color="green">Implemented</mdb-badge> Initialize records: Adds 7 fake users at a time.</li>
+				<li>🟩Implemented🟩 Show the number of users</li>
+				<li>🟩Implemented🟩 Initialize records: Adds 7 fake users at a time.</li>
 			</ul>
 		</ul>
 		<li>Elasticsearch</li>
 		<ul>
 			<li>Templates</li>
 			<ul>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Checking Templates</li>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Creating or updating Templates if they don't exist or their Mappings or Settings or Index patterns are outdated.</li>
+				<li>🟥Still missing🟥 Checking Templates</li>
+				<li>🟥Still missing🟥 Creating or updating Templates if they don't exist or their Mappings or Settings or Index patterns are outdated.</li>
 			</ul>
 			<li>Indices</li>
 			<ul>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Checking Indices</li>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Creating or updating Indices, if they don't exist or their Mappings or Settings are outdated.</li>
+				<li>🟥Still missing🟥 Checking Indices</li>
+				<li>🟥Still missing🟥 Creating or updating Indices, if they don't exist or their Mappings or Settings are outdated.</li>
 			</ul>
 			<li>Products</li>
 			<ul>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Show the number of products</li>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Initialize documents: Add several fake products at a time</li>
+				<li>🟥Still missing🟥 Show the number of products</li>
+				<li>🟥Still missing🟥 Initialize documents: Add several fake products at a time</li>
 			</ul>
 			<li>Invoices</li>
 			<ul>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Show the number of invoices</li>
-				<li><mdb-badge color="red">Still missing</mdb-badge> Initialize documents: Add several fake invoices at a time</li>
+				<li>🟥Still missing🟥 Show the number of invoices</li>
+				<li>🟥Still missing🟥 Initialize documents: Add several fake invoices at a time</li>
 			</ul>
 		</ul>
 	</ul>
@@ -94,83 +79,83 @@ The [Frontend Part](https://github.com/truj/aspe-ng) is written in Angular 11.
 	<ul>
 		<li>Customer Search</li>
 		<ul>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Customer search using a custom filter</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Pagination of the result list</li>
+			<li>🟩Implemented🟩 Customer search using a custom filter</li>
+			<li>🟥Still missing🟥 Pagination of the result list</li>
 		</ul>
 		<li>Customer manipulation</li>
 		<ul>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Customer creation</li>
-			<li><mdb-badge color="green">Implemented</mdb-badge> Customer update</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Frontend Validation</li>
-			<li><mdb-badge color="orange">Partly implemented</mdb-badge> Backend Validation</li>
+			<li>🟩Implemented🟩 Customer creation</li>
+			<li>🟩Implemented🟩 Customer update</li>
+			<li>🟥Still missing🟥 Frontend Validation</li>
+			<li>🟧Partly implemented🟧 Backend Validation</li>
 		</ul>
 	</ul>
 	<li>Users (JDBC)</li>
 	<ul>
 		<li>User Search</li>
 		<ul>
-			<li><mdb-badge color="green">Implemented</mdb-badge> User search using a custom filter</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Pagination of the result list</li>
+			<li>🟩Implemented🟩 User search using a custom filter</li>
+			<li>🟥Still missing🟥 Pagination of the result list</li>
 		</ul>
 		<li>User manipulation</li>
 		<ul>
-			<li><mdb-badge color="green">Implemented</mdb-badge> User creation</li>
-			<li><mdb-badge color="green">Implemented</mdb-badge> User update</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Frontend Validation</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Backend Validation</li>
+			<li>🟩Implemented🟩 User creation</li>
+			<li>🟩Implemented🟩 User update</li>
+			<li>🟥Still missing🟥 Frontend Validation</li>
+			<li>🟥Still missing🟥 Backend Validation</li>
 		</ul>
 	</ul>
 	<li>Products (Elasticsearch / JPA)</li>
 	<ul>
 		<li>Product Search</li>
 		<ul>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Product search using a custom filter</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Pagination of the result list</li>
+			<li>🟥Still missing🟥 Product search using a custom filter</li>
+			<li>🟥Still missing🟥 Pagination of the result list</li>
 		</ul>
 		<li>Product manipulation</li>
 		<ul>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Product creation</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Product update</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Frontend Validation</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Backend Validation</li>
+			<li>🟥Still missing🟥 Product creation</li>
+			<li>🟥Still missing🟥 Product update</li>
+			<li>🟥Still missing🟥 Frontend Validation</li>
+			<li>🟥Still missing🟥 Backend Validation</li>
 		</ul>
 	</ul>
 	<li>Invoices (Elasticsearch / REST Client)</li>
 	<ul>
 		<li>Invoice Search</li>
 		<ul>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Invoice search using a custom filter</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Pagination of the result list</li>
+			<li>🟥Still missing🟥 Invoice search using a custom filter</li>
+			<li>🟥Still missing🟥 Pagination of the result list</li>
 		</ul>
 		<li>Product manipulation</li>
 		<ul>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Invoice creation</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Invoice update</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Frontend Validation</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Backend Validation</li>
+			<li>🟥Still missing🟥 Invoice creation</li>
+			<li>🟥Still missing🟥 Invoice update</li>
+			<li>🟥Still missing🟥 Frontend Validation</li>
+			<li>🟥Still missing🟥 Backend Validation</li>
 		</ul>
 	</ul>
 	<li>Frontend Tests</li>
 	<ul>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Write tests for everything</li>
+		<li>🟥Still missing🟥 Write tests for everything</li>
 	</ul>
 	<li>Backend Tests</li>
 	<ul>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Write tests for everything</li>
+		<li>🟥Still missing🟥 Write tests for everything</li>
 	</ul>
 	<li>SCSS Styling</li>
 	<ul>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Choosing the final SCSS framework to use or build my own</li>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Apply stylings</li>
+		<li>🟥Still missing🟥 Choosing the final SCSS framework to use or build my own</li>
+		<li>🟥Still missing🟥 Apply stylings</li>
 	</ul>
 	<li>Security Features</li>
 	<ul>
-		<li><mdb-badge color="red">Still missing</mdb-badge> User Login (OAuth)</li>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Access Restriction for some parts</li>
-		<li><mdb-badge color="red">Still missing</mdb-badge> Password change</li>
+		<li>🟥Still missing🟥 User Login (OAuth)</li>
+		<li>🟥Still missing🟥 Access Restriction for some parts</li>
+		<li>🟥Still missing🟥 Password change</li>
 		<ul>
-			<li><mdb-badge color="red">Still missing</mdb-badge> Initially or after resetting</li>
-			<li><mdb-badge color="red">Still missing</mdb-badge> With a valid password</li>
+			<li>🟥Still missing🟥 Initially or after resetting</li>
+			<li>🟥Still missing🟥 With a valid password</li>
 		</ul>
 	</ul>
 </ul>
